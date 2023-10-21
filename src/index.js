@@ -1,4 +1,5 @@
 import { loadPage } from "./load-page";
+import './style.css';
 
 function clearContent(){
     const content = document.getElementById('content');
