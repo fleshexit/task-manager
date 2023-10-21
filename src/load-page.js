@@ -8,7 +8,7 @@ export function loadPage(){
     header.classList.add('header');
     content.appendChild(header);
 
-    const headerText = document.createElement('h1');
+    const headerText = document.createElement('div');
     headerText.textContent = 'Todo List';
     header.appendChild(headerText);
 
@@ -30,6 +30,7 @@ export function loadPage(){
     // create footer
     const footer = document.createElement('footer');
     footer.classList.add('footer');
+    footer.textContent = 'chrlie-w';
     content.appendChild(footer);
     
 }

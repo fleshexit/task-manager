@@ -1,4 +1,5 @@
 import { loadPage } from "./load-page";
+import { renderTodoList } from './todo-list';
 import './style.css';
 
 function clearContent(){
@@ -8,4 +9,11 @@ function clearContent(){
     }
 }
 
-loadPage();
+function TodoList(){
+    clearContent();
+    loadPage();
+}
+
+
+
+TodoList();

@@ -1,0 +1,54 @@
+
+:root {
+    --background-color: #f1efed;
+    --text-color: #000;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Neue Montreal', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.header,
+.footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.header {
+    justify-content: space-between;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #000;
+}
+
+.footer {
+    justify-content: center;
+    font-size: 1rem;
+    border-top: 1px solid #000;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.sidebar {
+    border-right: 1px solid #000;
+}
