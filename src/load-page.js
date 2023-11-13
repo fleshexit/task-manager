@@ -12,6 +12,13 @@ export function loadPage(){
     headerText.textContent = 'Todo List';
     header.appendChild(headerText);
 
+    const addTodoButton = document.createElement('button');
+    addTodoButton.classList.add('button');
+    addTodoButton.id = 'add-button';
+    addTodoButton.textContent = 'Add +';
+    header.appendChild(addTodoButton);
+
+
     // create main
     const main = document.createElement('main');
     main.classList.add('main');
@@ -60,5 +67,22 @@ export function loadPage(){
     footer.classList.add('footer');
     footer.textContent = 'chrlie-w';
     content.appendChild(footer);
+
+    const addTodoDialog = document.createElement('dialog');
+    addTodoDialog.classList.add('modal');
+    addTodoDialog.innerHTML = `
+    <div class="modal-content">
+    <h2>Add New Task</h2>
+        <form class="modal-form" action="#" method="dialog">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Title" maxlength="50" required>
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" placeholder="Description" maxlength="250" required>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
+    `;
+    content.appendChild(addTodoDialog);
+
     
 }
