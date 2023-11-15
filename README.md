@@ -1,8 +1,12 @@
-### To Do List
-Simple To Do List application.
+### Task Manager
+Simple Task Manager web application.
 
 ## features
-To-Do is an basic task management app designed to enhance both your personal and professional productivity.
+A basic task management app designed to enhance both your personal and professional productivity.
+- Priority sorting
+- Due dates
+- 
+
 
 ## Built With
 
