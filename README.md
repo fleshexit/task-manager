@@ -1,14 +1,13 @@
-### Task Manager
+## Task Manager
 Simple Task Manager web application.
 
-## features
+### Features
 A basic task management app designed to enhance both your personal and professional productivity.
 - Priority sorting
 - Due dates
 - 
 
-
-## Built With
+### Built With
 
 - HTML
 - CSS
