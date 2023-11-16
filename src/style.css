@@ -55,6 +55,16 @@ body {
     flex-direction: column;
 }
 
+.sidebar > button {
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+}
+
 .modal {
     position: absolute;
     width: 20rem;
